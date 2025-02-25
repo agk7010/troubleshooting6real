@@ -6,7 +6,7 @@ const AudioCtx = new AudioContext();
  * It is initially undefined and will be created when the oscillator starts.
  * @type {OscillatorNode | undefined}
  */
-let oscillator = AudioCtx.createOscillator();
+let oscillator;
 
 /**
  * GainNode to control the volume of the oscillator.
